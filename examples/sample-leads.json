@@ -1,0 +1,5 @@
+[
+  { "name": "  jane   DOE ", "email": "Jane.Doe@Example.com ", "phone": "(555) 123-4567", "company": "Acme  Inc", "website": "https://www.acme.com/about" },
+  { "name": "Jane Doe", "email": "jane.doe@example.com", "phone": "", "company": "Acme Inc", "website": "acme.com" },
+  { "name": "Bad Email", "email": "not-an-email", "phone": "+44 20 7946 0958", "company": "Foo Ltd", "website": "foo.co.uk" }
+]

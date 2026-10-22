@@ -1,0 +1,23 @@
+{
+  "name": "lead-cleanup-mcp-lite",
+  "version": "0.1.0",
+  "description": "Free Lite MCP server for cleaning and de-duplicating sales lead lists. No API keys needed.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "lead-cleanup-mcp-lite": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "sample": "node examples/run-sample.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "leads", "data-cleaning", "crm"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalsolutionsmagic/lead-cleanup-mcp-lite.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "engines": { "node": ">=18" }
+}
